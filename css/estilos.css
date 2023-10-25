@@ -338,7 +338,7 @@ body{
     display: grid;
     gap: 2em;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -368,6 +368,11 @@ body{
     cursor: pointer; 
     color: var(--color-title);
     justify-content: space-between;
+}
+
+.questions__offer{
+    text-align: center;
+    padding: 20px;
 }
 
 .questions__arrow{
@@ -419,20 +424,24 @@ body{
     color: #fff;
 }
 
-.footer_container{
+.footer__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.nav__footer{
+.nav--footer{
     padding-bottom: 20px;
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
+
 }
 
 .nav__link--footer{
