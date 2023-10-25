@@ -51,6 +51,16 @@ body{
     align-items: center;
 }
 
+.nav__container{
+    display: flex;
+    align-items: auto;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .nav__title{
     font-weight: 300;
 }
@@ -174,6 +184,7 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
+    margin: 40px;
 }
 
 .knowledge__picture{
