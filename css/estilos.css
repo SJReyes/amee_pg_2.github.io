@@ -10,6 +10,9 @@ body{
     font-family: 'Inria Serif', serif;
 }
 
+* {
+    box-sizing: border-box;
+}
 .container{ /*Elementos contenedores de la pag, revisar nombres*/
     width: 90;
     max-width: 1200;
